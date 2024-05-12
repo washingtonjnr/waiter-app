@@ -1,0 +1,12 @@
+Widgets:
+  - [SafeAreaView]:
+    Ajusta o tamanho da tela para conseguirmos trabalhar apenas com as partes visíveis do dispositivo (só funciona para iOS)
+
+  - [Text]:
+    Todo bloco de texto precisa ser envolvido por esse widget
+
+
+Observations:
+  - Intl: funciona apenas no iOS, então é se o projeto for usar, será necessário instalar o intl (yarn add intl) e fazer as seguintes importações no App.tsx:
+    import "intl";
+    import "intl/locale-data/jsonp/pt-BR";

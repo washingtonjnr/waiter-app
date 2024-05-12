@@ -1,0 +1,14 @@
+How to create React Native project (TypeScript, Expo):
+  - yarn create expo-app app -t expo-template-blank-typescript
+
+  - yarn add styled-components
+
+  - yarn add -D @types/styled-components
+
+  - yarn expo install react-native-svg
+
+  - yarn expo install expo-font
+
+  ...
+
+
